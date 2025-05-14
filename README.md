@@ -28,6 +28,10 @@ Streamlit
 
 NearestNeighbors (sklearn)
 
+Dataset used
+
+https://www.kaggle.com/paramaggarwal/datasets
+
 🧩 How It Works
 Image Feature Extraction:
 The input images are passed through the ResNet50 model (excluding top layers) to obtain a 2048-dimensional feature vector.
