@@ -3,6 +3,7 @@ Fashion Recommendation System 👗🤖
 This is a deep learning-based fashion recommendation system that suggests visually similar clothing items from a dataset. The system uses ResNet50, a powerful CNN architecture, for extracting image features and recommends products based on their visual similarity.
 
 🚀 Features
+
 Upload an image and get visually similar fashion recommendations
 
 Uses ResNet50 pretrained on ImageNet for feature extraction
@@ -14,6 +15,7 @@ Web interface using Flask or Streamlit
 Easily extendable with custom datasets
 
 🧠 Technologies Used
+
 Python
 
 Google Colab
@@ -28,11 +30,12 @@ Streamlit
 
 NearestNeighbors (sklearn)
 
-Dataset used
+📦 Dataset
 
 https://www.kaggle.com/paramaggarwal/datasets
 
 🧩 How It Works
+
 Image Feature Extraction:
 The input images are passed through the ResNet50 model (excluding top layers) to obtain a 2048-dimensional feature vector.
 
